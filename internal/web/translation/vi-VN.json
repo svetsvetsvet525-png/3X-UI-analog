@@ -96,6 +96,7 @@
     "email": "Email"
   },
   "menu": {
+    "onlineClients": "Khách trực tuyến",
     "theme": "Chủ đề",
     "dashboard": "Trạng thái hệ thống",
     "inbounds": "Inbound",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "Tổng khách trực tuyến",
+      "localClients": "Trên panel này",
+      "nodeClients": "Trên node",
+      "node": "Node",
+      "ips": "IP nguồn",
+      "lastSeen": "Hoạt động gần nhất",
+      "noClients": "Hiện không có khách trực tuyến"
+    },
     "login": {
       "hello": "Xin chào",
       "title": "Chào mừng",

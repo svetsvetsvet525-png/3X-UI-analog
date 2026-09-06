@@ -96,6 +96,7 @@
     "copyAllConfigsCopied": "All configs copied"
   },
   "menu": {
+    "onlineClients": "Online Clients",
     "theme": "Theme",
     "dashboard": "Overview",
     "inbounds": "Inbounds",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "Total online clients",
+      "localClients": "On this panel",
+      "nodeClients": "On nodes",
+      "node": "Node",
+      "ips": "Source IPs",
+      "lastSeen": "Last seen",
+      "noClients": "No clients are online"
+    },
     "login": {
       "hello": "Hello",
       "title": "Welcome",

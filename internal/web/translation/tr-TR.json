@@ -96,6 +96,7 @@
     "email": "E-posta"
   },
   "menu": {
+    "onlineClients": "Çevrimiçi Kullanıcılar",
     "theme": "Tema",
     "dashboard": "Genel Bakış",
     "inbounds": "Gelen Bağlantılar",
@@ -116,6 +117,15 @@
     "subFormats": "Abonelik Formatları"
   },
   "pages": {
+    "online": {
+      "totalClients": "Toplam çevrimiçi kullanıcı",
+      "localClients": "Bu panelde",
+      "nodeClients": "Node'larda",
+      "node": "Node",
+      "ips": "Kaynak IP",
+      "lastSeen": "Son görülme",
+      "noClients": "Şu anda çevrimiçi kullanıcı yok"
+    },
     "login": {
       "hello": "Merhaba",
       "title": "Hoş Geldiniz",

@@ -1492,6 +1492,14 @@ export const sections: readonly Section[] = [
       },
       {
         method: 'POST',
+        path: '/panel/api/clients/onlineClients',
+        summary:
+          'One row per online client holding the source IPs of its traffic and the node/inbound it connects through. The local panel takes live IPs from the running core; remote nodes fall back to the per-node IP attribution table. Node is empty when the traffic goes through this panel.',
+        responseSchema: 'OnlineClientView',
+        responseSchemaArray: true,
+      },
+      {
+        method: 'POST',
         path: '/panel/api/clients/onlinesByGuid',
         summary:
           'Online client emails grouped by the panelGuid of the node that physically hosts each client. The local panel uses its own GUID; each node (at any depth in a chain) uses its GUID. Lets the inbounds page attribute online status to the real node instead of the intermediate one it syncs through.',

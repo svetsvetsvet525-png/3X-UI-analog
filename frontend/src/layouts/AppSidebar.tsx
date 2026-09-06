@@ -18,6 +18,7 @@ import {
   GlobalOutlined,
   HeartOutlined,
   ImportOutlined,
+  LaptopOutlined,
   LogoutOutlined,
   MailOutlined,
   MenuOutlined,
@@ -56,6 +57,7 @@ type IconName =
   | 'dashboard'
   | 'inbound'
   | 'team'
+  | 'online'
   | 'groups'
   | 'setting'
   | 'tool'
@@ -70,6 +72,7 @@ const iconByName: Record<IconName, ComponentType> = {
   dashboard: DashboardOutlined,
   inbound: ImportOutlined,
   team: TeamOutlined,
+  online: LaptopOutlined,
   groups: TagsOutlined,
   setting: SettingOutlined,
   tool: ToolOutlined,
@@ -217,6 +220,7 @@ export default function AppSidebar() {
       { key: '/', icon: 'dashboard', title: t('menu.dashboard') },
       { key: '/inbounds', icon: 'inbound', title: t('menu.inbounds') },
       { key: '/clients', icon: 'team', title: t('menu.clients') },
+      { key: '/online', icon: 'online', title: t('menu.onlineClients') },
       { key: '/groups', icon: 'groups', title: t('menu.groups') },
       { key: '/nodes', icon: 'cluster', title: t('menu.nodes') },
       { key: '/hosts', icon: 'hosts', title: t('menu.hosts') },

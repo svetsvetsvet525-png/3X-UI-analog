@@ -96,6 +96,7 @@
     "email": "電子郵件"
   },
   "menu": {
+    "onlineClients": "線上用戶端",
     "theme": "主題",
     "dashboard": "系統狀態",
     "inbounds": "入站",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "線上用戶端總數",
+      "localClients": "此面板",
+      "nodeClients": "節點上",
+      "node": "節點",
+      "ips": "來源 IP",
+      "lastSeen": "最後上線時間",
+      "noClients": "目前沒有用戶端上線"
+    },
     "login": {
       "hello": "你好",
       "title": "歡迎",

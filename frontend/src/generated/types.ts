@@ -727,6 +727,20 @@ export interface NodeView {
   xrayVersion: string;
 }
 
+export interface OnlineClientIP {
+  ip: string;
+  timestamp: number;
+}
+
+export interface OnlineClientView {
+  email: string;
+  inbound: string;
+  ips: OnlineClientIP[];
+  node: string;
+  protocol: string;
+  remark: string;
+}
+
 export interface OutboundTraffics {
   down: number;
   id: number;

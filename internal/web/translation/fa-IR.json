@@ -96,6 +96,7 @@
     "copyAllConfigsCopied": "همه کانفیگ‌ها کپی شدند"
   },
   "menu": {
+    "onlineClients": "کاربران آنلاین",
     "theme": "تم",
     "dashboard": "نمای کلی",
     "inbounds": "ورودی‌ها",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "کل کاربران آنلاین",
+      "localClients": "در این پنل",
+      "nodeClients": "روی نودها",
+      "node": "نود",
+      "ips": "آی‌پی مبدأ",
+      "lastSeen": "آخرین بازدید",
+      "noClients": "در حال حاضر کاربری آنلاین نیست"
+    },
     "login": {
       "hello": "سلام",
       "title": "خوش‌آمدید",

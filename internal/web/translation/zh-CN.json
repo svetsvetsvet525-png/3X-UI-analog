@@ -96,6 +96,7 @@
     "email": "邮箱"
   },
   "menu": {
+    "onlineClients": "在线客户端",
     "theme": "主题",
     "dashboard": "系统状态",
     "inbounds": "入站",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "在线客户端总数",
+      "localClients": "本机面板",
+      "nodeClients": "节点上",
+      "node": "节点",
+      "ips": "来源 IP",
+      "lastSeen": "最后在线时间",
+      "noClients": "当前没有客户端在线"
+    },
     "login": {
       "hello": "你好",
       "title": "欢迎",

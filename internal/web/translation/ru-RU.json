@@ -96,6 +96,7 @@
     "email": "Email"
   },
   "menu": {
+    "onlineClients": "Онлайн-клиенты",
     "theme": "Тема",
     "dashboard": "Дашборд",
     "inbounds": "Входящие",
@@ -116,6 +117,15 @@
     "subFormats": "Форматы подписки"
   },
   "pages": {
+    "online": {
+      "totalClients": "Всего онлайн-клиентов",
+      "localClients": "На этой панели",
+      "nodeClients": "На узлах",
+      "node": "Узел",
+      "ips": "IP-адреса",
+      "lastSeen": "Последняя активность",
+      "noClients": "Сейчас никого нет в сети"
+    },
     "login": {
       "hello": "Привет!",
       "title": "Добро пожаловать!",

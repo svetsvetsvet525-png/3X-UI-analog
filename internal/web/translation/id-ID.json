@@ -96,6 +96,7 @@
     "email": "Email"
   },
   "menu": {
+    "onlineClients": "Klien Online",
     "theme": "Tema",
     "dashboard": "Ikhtisar",
     "inbounds": "Inbound",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "Total klien online",
+      "localClients": "Di panel ini",
+      "nodeClients": "Di node",
+      "node": "Node",
+      "ips": "IP sumber",
+      "lastSeen": "Terakhir aktif",
+      "noClients": "Tidak ada klien yang online saat ini"
+    },
     "login": {
       "hello": "Halo",
       "title": "Selamat Datang",
