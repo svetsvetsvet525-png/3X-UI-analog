@@ -27,7 +27,10 @@ COPY --from=frontend /src/internal/web/dist ./internal/web/dist
 
 ENV CGO_ENABLED=1
 ENV CGO_CFLAGS="-D_LARGEFILE64_SOURCE"
-RUN go build -ldflags "-w -s" -o build/x-ui main.go
+# Small-VPS builds OOM when Go compiles every package in parallel, so cap both
+# compiler workers and the per-package toolchain. Slower, but fits in 2GB RAM.
+ARG XUI_BUILD_JOBS=2
+RUN GOMAXPROCS=${XUI_BUILD_JOBS} GOFLAGS="-p=${XUI_BUILD_JOBS}" go build -ldflags "-w -s" -o build/x-ui main.go
 RUN ./DockerInit.sh "$TARGETARCH"
 
 # ========================================================
