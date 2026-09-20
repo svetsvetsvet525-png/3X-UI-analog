@@ -3232,6 +3232,75 @@ export const SCHEMAS: Record<string, unknown> = {
     ],
     "type": "object"
   },
+  "OnlineClientIP": {
+    "description": "OnlineClientIP is one source IP shown on the Online Clients page.",
+    "properties": {
+      "ip": {
+        "example": "1.2.3.4",
+        "type": "string"
+      },
+      "timestamp": {
+        "example": 1700000000,
+        "format": "int64",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "ip",
+      "timestamp"
+    ],
+    "type": "object"
+  },
+  "OnlineClientView": {
+    "description": "OnlineClientView is one row of the Online Clients page: a client with a live\nconnection (or one observed connecting recently) together with the source\nIPs of that traffic and the node/inbound the traffic goes through. Node is\n\"\" for clients on this local panel, and IPs are the live source addresses\nwhere the local core exposes them, otherwise the per-node attribution table.",
+    "properties": {
+      "email": {
+        "example": "user@example.com",
+        "type": "string"
+      },
+      "inbound": {
+        "description": "client's primary inbound remark",
+        "example": "VLESS-TLS",
+        "type": "string"
+      },
+      "ips": {
+        "example": [
+          {
+            "ip": "1.2.3.4",
+            "timestamp": 1700000000
+          }
+        ],
+        "items": {
+          "$ref": "#/components/schemas/OnlineClientIP"
+        },
+        "type": "array"
+      },
+      "node": {
+        "description": "\"\" = this local panel",
+        "example": "edge-1",
+        "type": "string"
+      },
+      "protocol": {
+        "description": "... and protocol",
+        "example": "vless",
+        "type": "string"
+      },
+      "remark": {
+        "description": "client comment",
+        "example": "Alice's phone",
+        "type": "string"
+      }
+    },
+    "required": [
+      "email",
+      "inbound",
+      "ips",
+      "node",
+      "protocol",
+      "remark"
+    ],
+    "type": "object"
+  },
   "OutboundTraffics": {
     "description": "OutboundTraffics tracks traffic statistics for Xray outbound connections.",
     "properties": {

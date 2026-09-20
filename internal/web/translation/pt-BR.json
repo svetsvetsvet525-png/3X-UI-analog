@@ -96,6 +96,7 @@
     "email": "Email"
   },
   "menu": {
+    "onlineClients": "Clientes Online",
     "theme": "Tema",
     "dashboard": "Visão Geral",
     "inbounds": "Entradas",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "Total de clientes online",
+      "localClients": "Neste painel",
+      "nodeClients": "Nos nós",
+      "node": "Nó",
+      "ips": "IPs de origem",
+      "lastSeen": "Última atividade",
+      "noClients": "Nenhum cliente está online"
+    },
     "login": {
       "hello": "Olá",
       "title": "Bem-vindo",

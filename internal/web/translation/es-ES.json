@@ -96,6 +96,7 @@
     "email": "Email"
   },
   "menu": {
+    "onlineClients": "Clientes en línea",
     "theme": "Tema",
     "dashboard": "Estado del Sistema",
     "inbounds": "Entradas",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "Total de clientes en línea",
+      "localClients": "En este panel",
+      "nodeClients": "En nodos",
+      "node": "Nodo",
+      "ips": "IP de origen",
+      "lastSeen": "Última actividad",
+      "noClients": "No hay clientes en línea"
+    },
     "login": {
       "hello": "Hola",
       "title": "Bienvenido",

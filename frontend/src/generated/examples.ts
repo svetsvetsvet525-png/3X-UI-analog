@@ -813,6 +813,23 @@ export const EXAMPLES: Record<string, unknown> = {
     "xrayState": "running",
     "xrayVersion": "25.10.31"
   },
+  "OnlineClientIP": {
+    "ip": "1.2.3.4",
+    "timestamp": 1700000000
+  },
+  "OnlineClientView": {
+    "email": "user@example.com",
+    "inbound": "VLESS-TLS",
+    "ips": [
+      {
+        "ip": "1.2.3.4",
+        "timestamp": 1700000000
+      }
+    ],
+    "node": "edge-1",
+    "protocol": "vless",
+    "remark": "Alice's phone"
+  },
   "OutboundTraffics": {
     "down": 0,
     "id": 0,

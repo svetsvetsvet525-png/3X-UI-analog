@@ -779,6 +779,22 @@ export const NodeViewSchema = z.object({
 });
 export type NodeView = z.infer<typeof NodeViewSchema>;
 
+export const OnlineClientIPSchema = z.object({
+  ip: z.string(),
+  timestamp: z.number().int(),
+});
+export type OnlineClientIP = z.infer<typeof OnlineClientIPSchema>;
+
+export const OnlineClientViewSchema = z.object({
+  email: z.string(),
+  inbound: z.string(),
+  ips: z.array(z.lazy(() => OnlineClientIPSchema)),
+  node: z.string(),
+  protocol: z.string(),
+  remark: z.string(),
+});
+export type OnlineClientView = z.infer<typeof OnlineClientViewSchema>;
+
 export const OutboundTrafficsSchema = z.object({
   down: z.number().int(),
   id: z.number().int(),

@@ -96,6 +96,7 @@
     "email": "メール"
   },
   "menu": {
+    "onlineClients": "オンラインクライアント",
     "theme": "テーマ",
     "dashboard": "ダッシュボード",
     "inbounds": "インバウンド",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "オンラインクライアント総数",
+      "localClients": "このパネル上",
+      "nodeClients": "ノード上",
+      "node": "ノード",
+      "ips": "送信元 IP",
+      "lastSeen": "最終アクティビティ",
+      "noClients": "オンラインのクライアントはいません"
+    },
     "login": {
       "hello": "こんにちは",
       "title": "ようこそ",

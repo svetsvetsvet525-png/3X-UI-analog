@@ -96,6 +96,7 @@
     "email": "البريد"
   },
   "menu": {
+    "onlineClients": "العملاء المتصلون",
     "theme": "الثيم",
     "dashboard": "نظرة عامة",
     "inbounds": "الواردات",
@@ -116,6 +117,15 @@
     "subFormats": "Sub Formats"
   },
   "pages": {
+    "online": {
+      "totalClients": "إجمالي العملاء المتصلين",
+      "localClients": "على هذه اللوحة",
+      "nodeClients": "على العقد",
+      "node": "العقدة",
+      "ips": "عناوين IP المصدر",
+      "lastSeen": "آخر نشاط",
+      "noClients": "لا يوجد عملاء متصلون الآن"
+    },
     "login": {
       "hello": "أهلا",
       "title": "أهلاً وسهلاً",
